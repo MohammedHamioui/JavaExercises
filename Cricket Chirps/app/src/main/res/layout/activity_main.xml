@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="170dp"
+        android:layout_height="177dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        app:srcCompat="@drawable/hot" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Did you know you know you kan determine the temperature by counting the number of chirps a cricket makes? Just count the number of chirps one makes in 25 seconds and place that number below." />
+
+    <EditText
+        android:id="@+id/etChrips"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="@string/number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="@string/calculate" />
+
+    <TextView
+        android:id="@+id/tvResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+</LinearLayout>

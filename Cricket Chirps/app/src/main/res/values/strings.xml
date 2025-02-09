@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cricket Chirps</string>
+    <string name="number">Enter a number</string>
+    <string name="calculate">Calculate Temperature</string>
+</resources>

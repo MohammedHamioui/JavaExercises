@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivMood"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="40dp"
+        app:srcCompat="@drawable/happy" />
+
+    <ImageView
+        android:id="@+id/ivLocation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/location" />
+
+    <ImageView
+        android:id="@+id/ivPhone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/phone" />
+
+    <ImageView
+        android:id="@+id/ivWeb"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/web" />
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Create new contact" />
+</LinearLayout>
